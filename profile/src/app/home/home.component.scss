@@ -2,16 +2,22 @@
     width: 100%;
     height: 100vh;
     background-image: url(/assets/img/Me.png);
-    background-size: 20%; /* adjust the value to change the size of the background image */
+    background-size: 30%; /* adjust the value to change the size of the background image */
     background-position: right center; /* set the background position to the right side of the header */
     background-repeat: no-repeat; /* prevent the background image from repeating */
+    
 }
+
+
+
 
 
 
 .container{
-    padding: 10px 10px;
+    padding-right: 10px 10px;
 }
+
+
 
 nav{
     display: flex;
@@ -56,7 +62,7 @@ nav ul li a:hover::after{
 }
 
 .header-text{
-    margin-top: 20%;
+    margin-top: 10%;
     font-size: 2em;
     h1 {
         font-size: 3em;
