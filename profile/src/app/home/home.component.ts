@@ -7,4 +7,19 @@ import { Component } from '@angular/core';
 })
 export class HomeComponent {
 
+toProjects(){
+  document.getElementById("projects-section")?.scrollIntoView({behavior:"smooth"});
+}
+toAbout(){
+  document.getElementById("about-section")?.scrollIntoView({behavior:"smooth"});
+}
+toHome(){
+  document.getElementById("home-section")?.scrollIntoView({behavior:"smooth"});
+}
+toSkills(){
+  document.getElementById("skills-section")?.scrollIntoView({behavior:"smooth"});
+}
+toContact(){
+  document.getElementById("contact-section")?.scrollIntoView({behavior:"smooth"});
+}
 }

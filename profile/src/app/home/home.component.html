@@ -1,24 +1,25 @@
-<div class="header">
+<div id="home-section">
+  <div class="header">
     <div class="container">
-        <nav>
-            <div class="name">Erik Blaha</div>
-            <ul>
-                <li> <a href="#">Home</a> </li>
-                <li> <a href="#">About</a> </li>
-                <li> <a href="#">Skills</a> </li>
-                <li> <a href="#">Projects</a> </li>
-                <li> <a href="#">Contact</a> </li>
-            </ul>
-
-        </nav>
-        <div class="header-text">
-            <h3>HELLO!</h3>
-            
-            <h1>I am <span>Erik Blaha </span><br></h1>
-            <p>Web Development / Web Design</p>
-            <p>Welcome to my personal website. <br> Start your tour through my person and my skills.</p>
-            
-        </div>
-        <button type="button" class="btn btn-light btn-lg">Read more</button>
+      <nav>
+        <div class="name">Erik Blaha</div>
+        <ul>
+          <li (click)="toHome()" routerLink="/home-section" routerLinkActive="" class="button-style">Home</li>
+          <li (click)="toAbout()" routerLink="/about-section" routerLinkActive="" class="button-style">About</li>
+          <li (click)="toSkills()" routerLink="/skills-section" routerLinkActive="" class="button-style">Skills</li>
+          <li (click)="toProjects()" routerLink="/projects-section" routerLinkActive="" class="button-style">Projects
+          </li>
+          <li (click)="toContact()" routerLink="/contact-section" routerLinkActive="" class="button-style">Contact
+          </li>
+        </ul>
+      </nav>
+      <div class="header-text">
+        <h3>HELLO!</h3>
+        <h1>I am <span>Erik Blaha </span><br></h1>
+        <p>Web Development / Web Design</p>
+        <p>Welcome to my personal website. <br> Start your tour through my person and my skills.</p>
+      </div>
+      <button (click)="toAbout()"  type="button" class="btn btn-light btn-lg">Read more</button>
     </div>
+  </div>
 </div>

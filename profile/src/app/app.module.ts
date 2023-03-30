@@ -8,6 +8,8 @@ import { AboutComponent } from './about/about.component';
 import { SkillsComponent } from './skills/skills.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { ContactFormComponent } from './contact-form/contact-form.component';
+import { SmoothScrollDirective } from './smooth-scroll.directive';
+
 
 @NgModule({
   declarations: [
@@ -16,7 +18,8 @@ import { ContactFormComponent } from './contact-form/contact-form.component';
     AboutComponent,
     SkillsComponent,
     ProjectsComponent,
-    ContactFormComponent
+    ContactFormComponent,
+    SmoothScrollDirective
   ],
   imports: [
     BrowserModule,
