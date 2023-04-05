@@ -1,13 +1,27 @@
-
-.custom-container {
-    max-width: 90%;
+/* For screens smaller than 1200px */
+@media screen and (max-width: 1199px) {
+  .skillbar-image {
+    max-width: 80%;
+    margin: 0 auto; /* Center the image */
   }
+}
 
-  .custom-col {
-    width: 50%;
+/* For screens smaller than 992px */
+@media screen and (max-width: 991px) {
+  .skillbar-image {
+    max-width: 60%;
+    margin: 0 auto; /* Center the image */
   }
+}
 
+/* For screens smaller than 768px */
+@media screen and (max-width: 767px) {
   .skillbar-image {
     max-width: 100%;
+    margin: 0 auto; /* Center the image */
   }
-  
+}
+
+p{
+  font-size: 24px;
+}
